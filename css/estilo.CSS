@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0;
+	padding: 0;
+}
+
+h1{color: #000000;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Palette Mosaic', cursive;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+}
+.mySlides{width: 100%;
+     align-content: center; position: absolute;top: 10%;
+}
+.emergencia{text-align: center;color: #FFF704;background-color: #2050D6;padding: 1%;width: 35%;position: absolute;top: 0%;right: 0%;z-index: 1;
+}
+.logo{width: 11%;
+}
+.testimonio{width: 20%;
+}
+form{text-align: center;background-color: #EBE9EB;width: 20%;padding: 1%;padding-top: 0.5%;position: absolute;top: 13%;left: 70%;z-index: 3;}
+label{width: 25%;display: inline-block;font-size: 80%;font-weight:bold;font-family: 'Josefin Sans', sans-serif;
+font-family: 'Palette Mosaic', cursive;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Titillium Web', sans-serif;}
+.box{width: 98%;background-color: #B81325;padding: 1%;
+}
+.redes img {float: right;width: 2%;
+}
+.down{width: 100%;position: absolute;right: 0%;top: 55%;
+}
+.mensaje{background-color: #B81325;color: #ffffff; padding: 2%; width: 30%; font-size: 120%;position: absolute;left: 38%;top:35% ;z-index: 2;
+}
+a{color: #ffffff; font-family: 'Josefin Sans', sans-serif;
+font-family: 'Palette Mosaic', cursive;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Titillium Web', sans-serif;}
+.donar{font-size: 80%;font-weight: bold;color: #ffffff;background-color: #00C65C;border-radius: 35px;padding: 2%;font-size: 18px;}
+input {font-size: 80%;color: #000000;background-color:#EBE9EB; border-radius: 30px;font-family: 'Josefin Sans', sans-serif;
+font-family: 'Palette Mosaic', cursive;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Titillium Web', sans-serif;}
+.g{height: 11px;font-size: 70%;}
+.donativo{color: #000000;background-color: #ffffff;font-weight: bold;border-radius: 35px;padding: 0.5%;padding-left: 2%;padding-right: 2%;}
+.donativo1{font-size: 80%;font-weight: bold;color: #000000;background-color: #ffffff;border-radius: 35px;padding-left: 4%;padding-right: 4%;}
+.donativo:hover{background-color:#000000;color: #ffffff;}
+.donativo1:hover{background-color:#000000;color: #ffffff;}
+.divf {width: 100%;margin-bottom: 2%;}
+form h2{font-size: 110%;font-family: 'Josefin Sans', sans-serif;
+font-family: 'Palette Mosaic', cursive;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Titillium Web', sans-serif;color:#B81325;}
+textarea{border-radius: 30px;}
+.textex{display: flex;flex-flow: wrap;
+}
+footer {position: absolute;bottom: 0%;width: 100%;}
+.name{color: #B81325;text-align: center;width: 100%;margin-top: 0.2%;font-family: 'Josefin Sans', sans-serif;
+font-family: 'Palette Mosaic', cursive;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Titillium Web', sans-serif;}
+.hola{position: absolute;bottom: 40%;width: 100%;right: 8%}
+.otras h2{font-family: 'Josefin Sans', sans-serif;
+font-family: 'Palette Mosaic', cursive;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Titillium Web', sans-serif;}
+.otras img{position: absolute;bottom: 5%;right:30%;filter: grayscale(70%);filter: brightness(30%);}
+.otras h1{color: #ffffff;position: absolute;bottom: 28%;right:33%;font-size: 120%;}
+.ache21{color: #ffffff;position: absolute;bottom: 18%;right:45%;font-size: 110%;}
+.ache22{color: #ffffff;position: absolute;bottom: 18%;right:33%;font-size: 110%;}
+.a1{font-size: 80%;color: #000000;position: absolute;bottom: 15%;right:47%;border-radius: 35px;background-color: #ffffff;padding-left: 1%; padding-right: 1%;}
+.a2{font-size: 80%;color: #000000;position: absolute;bottom: 15%;right:34%;border-radius: 35px;background-color: #ffffff;padding-left: 1%; padding-right: 1%;;}
+.a1:hover{background-color:#B81325;color: #ffffff;}
+.a2:hover{background-color:#B81325;color: #ffffff;}
+p{font-family: 'Josefin Sans', sans-serif;
+font-family: 'Palette Mosaic', cursive;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Titillium Web', sans-serif;}
+.name a{font-family: 'Josefin Sans', sans-serif;
+font-family: 'Palette Mosaic', cursive;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Titillium Web', sans-serif; font-weight: bold;}
+.otras a{font-family: 'Josefin Sans', sans-serif;
+font-family: 'Palette Mosaic', cursive;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Titillium Web', sans-serif; font-weight: bold;}
+.logoup{width: 1.5%;}

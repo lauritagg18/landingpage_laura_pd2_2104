@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Emergencia en Ucrania/Ayuda a la Iglesia Necesitada</title>
+	<link rel="stylesheet" href="css/estilo.css"/>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Palette+Mosaic&family=Source+Sans+Pro&family=Titillium+Web&display=swap" rel="stylesheet">
+</head>
+<main>
+<body>
+<header>
+		<a href="index.html"><img class="logo"src="imagenes/Logo.png" alt="Emergencia en ucrania"></a>
+		<h1 class="emergencia">EMERGENCIA EN UCRANIA</h1>
+	</header>
+<img class="mySlides" src="imagenes/Hermanas cansadas.jpg" alt="religiosas en ucrania">
+	<img class="mySlides" src="imagenes/Sacerdote en misa.jpg"  alt="misa">
+	<img class="mySlides" src="imagenes/Niñas con cristo.jpg"  alt="niñas ucranianas">
+<section class="down">
+    <img class="testimonio" src="imagenes/Testimonio1.jpg" alt="Testimonio 1">
+	<img class="testimonio" src="imagenes/Testimonio2.jpg" alt="Testimonio 2">
+</section>
+
+<section>
+	<p class="mensaje">Tú puedes ser esa luz de esperanza en estos <strong>tiempos de guerra y oscuridad</strong> que están pasando miles de sacerdotes, religiosas y <strong>cristianos en Ucrania</strong></p>
+</section>
+<form method="post" action="formulario.html">	
+		<p>
+			<h2>Datos personales:</h2>
+			<label for="camponombre">*Nombre</label>
+			<input class="g" type="text" name="nombre" required id="camponombre" placeholder= "Nombre"> 
+		</p>
+		<p>
+			<label for="campoapellido">*Apellido</label>
+			<input class="g" type="text" name="apellido" required id="campoapellido" placeholder= "Apellido"> 
+		</p>
+		<p>
+			<label for="campoemail">*Email</label>
+			<input class="g" type="email" name="email" required id="campoemail" placeholder= "Email"> 
+		</p>
+		<p>
+			<h2>Tipo de donativo:</h2>
+        	<input class="donativo" type="submit" value="Mensual">
+        	<input class="donativo" type="submit" value="puntual">
+      </p>
+      <p>
+		<h2>¿Qué cantidad?</h2>
+		<div class="divf">
+			<input class="donativo1" type="submit" value="10ꞓ">
+        	<input class="donativo1" type="submit" value="25ꞓ">
+        </div>
+        	<div class="divf">
+        	<input class="donativo1" type="submit" value="50ꞓ">
+        	<input class="donativo1" type="submit" value="100ꞓ">
+        	</div>
+		</p>
+	  <p>   <label for="campootroo">Otro</label>
+			<textarea id="campootro" placeholder= "ꞓ" rows="1" cols="10"></textarea>
+		</p>
+		<p>
+			<input class="donar" type="submit" value="DONAR AHORA">
+		</p>
+</form>
+<section class="otras">
+	<img src="imagenes/Hermana con comida.jpg" alt="Religiosa repartiendo alimentos">
+	<h1>OTRAS MANERAS DE COLABORAR</h1>
+	<article>
+	<div>
+	<h2 class="ache21">Con tu oración</h2>
+	<a class="a1" href="https://www.ayudaalaiglesianecesitada.org/oraciones/por-los-cristianos-perseguidos/#vela">Ver más</a>
+    </div>
+    <div>
+	<h2 class="ache22">Voluntariado</h2>
+	<a class="a2" href="https://www.ayudaalaiglesianecesitada.org/colabora/voluntariado-ayuda-a-la-iglesia-necesitada-acn-espana/?utm_source=home&utm_medium=web&utm_campaign=general&utm_content=boton_entravoluntariado">Ver más</a>
+	</div>
+</article>
+</section>
+<footer>
+  <section class="box">
+  	<article>
+ 	<a href="https://www.ayudaalaiglesianecesitada.org/aviso-legal/">Aviso Legal ꞁ</a>
+	<a href="https://www.ayudaalaiglesianecesitada.org/politica-de-privacidad/">Política de Privacidad ꞁ</a>
+	<a href="https://www.ayudaalaiglesianecesitada.org/politica-de-cookies/">Política de Cookies ꞁ</a>
+ </article>
+	<article class="hola">
+		<div class="redes">
+				<a href="https://twitter.com/AyudaIglesNeces"><img src="imagenes/twitter.png" alt="Twitter"></a>
+			</div>
+			<div class="redes">
+				<a href="https://www.facebook.com/ayudaalaiglesianecesitada/?ref=ts"><img src="imagenes/facebook.png" alt="Facebook"></a>
+			</div>
+			<div class="redes">
+				<a href="https://www.youtube.com/user/AINorg"><img src="imagenes/youtube.png" alt="youtube"></a>
+			</div>
+			<div class="redes">
+				<a href="https://www.instagram.com/ayudaiglesianecesitada/"><img src="imagenes/instagram.png" alt="Instagram"></a>
+			</div>
+		</article>
+		</section>
+ <section class="name">
+ 	<img class="logoup" src="imagenes/logoup.png" alt="Logo Universidad de Palermo">
+			<a class="name">Laura C Guillen G - Producción Digital III</a>
+ </section>
+</footer>
+	<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+    showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+    var i;
+	// acá define qué elemento entra en el slider
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1} 
+    if (n < 1) {slideIndex = x.length} ;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none"; 
+    }
+    x[slideIndex-1].style.display = "block"; 
+}
+	
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 2000); // Cambia la imagen cada 2 segundos
+}
+</script>	
+</body>
+</main>
+</html>
